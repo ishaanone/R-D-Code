@@ -1,0 +1,14 @@
+  for (VehicleType vehicleType : VehicleType.findAll()) {
+            JSONObject obj = new JSONObject();
+            try {
+                obj.put("value", vehicleType.getVehicleTypeId());
+                obj.put("text", vehicleType.getVehicleType() == null ? "" : vehicleType.getVehicleType());
+                jsonArr.put(obj);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            // vehicleTypes.add(new ListEntry(vehicleType.getVehicleTypeId().toString(), vehicleType.getVehicleType()));
+   }
+
+   uiModel.addAttribute("vType", jsonArr);
