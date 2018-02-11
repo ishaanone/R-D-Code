@@ -1,6 +1,6 @@
-
+<!--  https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe_autoplay -->
 <!DOCTYPE html>
-<html>
+<html> 
 <body>
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/QaR31V5xBQ8?autoplay=1" frameborder="0" allow="autoplay; 
